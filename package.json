@@ -1,5 +1,5 @@
 {
-  "name": "node-db4-project",
+  "name": "db4-project",
   "version": "1.0.0",
   "scripts": {},
   "repository": {
@@ -10,5 +10,14 @@
     "express": "^4.18.2",
     "knex": "^3.0.1",
     "sqlite3": "^5.1.6"
-  }
+  },
+  "description": "## Instructions",
+  "bugs": {
+    "url": "https://github.com/BloomInstituteOfTechnology/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/BloomInstituteOfTechnology/node-db4-project#readme",
+  "main": "knexfile.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

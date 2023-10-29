@@ -1,19 +1,11 @@
-// Update with your config settings.
-
-/**
- * @type { Object.<string, import("knex").Knex.Config> }
- */
 module.exports = {
-
   development: {
-    development : {
     client: 'sqlite3',
     connection: {
       filename: './dev.sqlite3'
-    }
-    }
+    },
+    useNullAsDefault: true, // needed for sqlite
   },
-
   staging: {
     client: 'postgresql',
     connection: {
@@ -29,7 +21,6 @@ module.exports = {
       tableName: 'knex_migrations'
     }
   },
-
   production: {
     client: 'postgresql',
     connection: {
@@ -45,5 +36,4 @@ module.exports = {
       tableName: 'knex_migrations'
     }
   }
-
 };
